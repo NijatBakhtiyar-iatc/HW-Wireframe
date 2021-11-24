@@ -159,3 +159,16 @@ footer{
   color: #cccccc;
   text-align: center;
 }
+.context{
+  margin-top: 20px;
+}
+.context img{
+  float: left;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+.context p{
+  line-height: 40px;
+}
