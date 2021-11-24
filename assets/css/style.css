@@ -172,3 +172,26 @@ footer{
 .context p{
   line-height: 40px;
 }
+.card-group{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+.card-group .card{
+  height: 200px;
+  position: relative;
+}
+.card-group .card img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.card-group .card p{
+  position: absolute;
+  background: #4aaaa5;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+}
