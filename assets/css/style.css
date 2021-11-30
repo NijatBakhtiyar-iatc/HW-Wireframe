@@ -11,7 +11,11 @@ body {
   background: #ececec;
   box-sizing: border-box;
 }
-
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
 section {
   display: flex;
   gap: 20px;
@@ -63,10 +67,7 @@ h3 {
 .social-icons img {
   width: 60%;
 }
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
+
 
 header {
   background: #fff;
@@ -196,4 +197,26 @@ footer{
   text-align: center;
   color: #fff;
   padding: 15px 0;
+}
+@media  screen and (max-width: 768px){
+  section{
+    flex-direction: column;
+  }
+  article{
+    width: 100%;
+  }
+  footer{
+    position: static;
+    margin-top: 20px;
+  }
+  .social-icons{
+    gap: 20px;
+  }
+  .social-icons .icon {
+    padding: 30px 0 ;
+  }
+  .social-icons img {
+    width: 40%;
+  }
+  
 }
