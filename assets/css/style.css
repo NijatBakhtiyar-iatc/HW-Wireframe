@@ -8,7 +8,7 @@
 body {
   font-size: 18px;
   color: #ada1a6;
-  background: #ececec;
+  background: #ececec !important;
   box-sizing: border-box;
 }
 .container {
@@ -20,6 +20,7 @@ section {
   display: flex;
   gap: 20px;
   margin-top: 30px;
+
   align-items: flex-start;
 }
 
@@ -65,7 +66,8 @@ h3 {
   background: linear-gradient(to right, #f78300, #bb3282);
 }
 .social-icons img {
-  width: 60%;
+  width: 50px;
+  height: 50px;
 }
 
 
@@ -79,11 +81,11 @@ header nav {
   align-items: center;
 }
 
-header h1 {
+.navbar-brand{
   margin: 0;
   padding: 20px;
   background: #4aaaa5;
-  color: #fff;
+  color: #fff !important;
 }
 
 nav ul {
@@ -148,8 +150,6 @@ article textarea {
   margin-bottom: 20px;
 }
 footer{
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 .footer-top{
@@ -176,7 +176,7 @@ footer{
   line-height: 40px;
 }
 .card-group{
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(2,1fr);
   gap: 20px;
 }
